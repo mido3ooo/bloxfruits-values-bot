@@ -20,7 +20,7 @@ const client = new Client({
 });
 
 /* ====== CONFIG ====== */
-const TOKEN = "MTQ1MzQ0NzcwODU2NzE0MjQyMA.G4cf6o.qfjjyrhwmc10YJhGybxGGoTX13WvYcGrcV1Sbk";
+const TOKEN = "MTQ1MzQ0NzcwODU2NzE0MjQyMA.GYj8f2.mTF9UvE5fJHnenF7oIeZx6RRXnpocMnCpeJmXs";
 const SERVER_ID = "1413287781450387500";
 
 const ADD_CHANNEL = "1453442012312506553";
@@ -181,4 +181,5 @@ client.on("interactionCreate", async (i) => {
 });
 
 client.login(TOKEN);
+
 
